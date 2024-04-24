@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <center><img src="images/WEbsite logo.PNG" alt="Logo" id="logo"></center>
+        <h3>Welcome to Our Website</h3>
+    </header>
+    <nav>
+        <a href="#" id="homeLink">Home</a>
+        <a href="#" id="aboutLink">About</a>
+        <a href="#" id="contactLink">Contact</a>
+    </nav>
+    <main>
+        <div class="registration-description">
+            <div id="registrationSection">
+                <h4>Registration form</h4>
+                <form id="loginForm">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required><br><br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required><br><br>
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" id="phone" name="phone" required><br><br>
+                    <button type="submit">Login</button>
+                </form>
+                <p id="loginMessage"></p>
+            </div>
+            <div id="descriptionSection">
+                <h4>About Our Website</h4>
+                <p>At [Your Website Name], we believe that healthy, radiant skin is the foundation of confidence and self-expression. With a commitment to quality and innovation, we offer a curated selection of skincare products designed to nurture and enhance your natural beauty.
+
+Unveil Your Radiance
+
+Our range of skincare essentials is meticulously crafted to address the unique needs of every skin type and tone. Whether you're seeking hydration, rejuvenation, or protection, our products harness the power of nature's finest ingredients to deliver visible results you'll love.
+
+Gender-Inclusive Beauty
+
+Dedicated to inclusivity, we embrace the diversity of skin and celebrate individuality. Our gender-inclusive approach ensures that everyone, regardless of gender identity, can experience the transformative benefits of our skincare solutions. Because beauty knows no boundaries.
+
+Empowering Confidence
+
+More than just skincare, [Your Website Name] is a sanctuary for self-care and empowerment. We believe that self-care is a transformative journey, and we're here to accompany you every step of the way. Our products not only nourish your skin but also uplift your spirit, empowering you to embrace your unique beauty with confidence.
+
+Join Our Community
+
+Step into a world of beauty and wellness where self-expression knows no limits. Join our vibrant community of skincare enthusiasts and embark on a journey to discover the best version of yourself. Let's redefine beauty together and celebrate the beauty in all its forms.
+
+Experience the [Your Website Name] difference today and embark on a journey to radiant, healthy skin that reflects the beauty within.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Our Website @2024</p>
+    </footer>
+</body>
+</html>
